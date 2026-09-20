@@ -3,6 +3,7 @@
 Martin Fowler (18 December 1963) is a British software developer, [2](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-2) author and international public speaker on software development, specialising in object-oriented analysis and design, UML, patterns, and agile software development methodologies, including extreme programming.
 
 His 1999 book Refactoring popularised the practice of code refactoring.[3](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-3) In 2004 he introduced a new architectural pattern, called Presentation Model (PM).[4](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-4)
+
 ![Martin Fowler](https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Webysther_20150414193208_-_Martin_Fowler.jpg/250px-Webysther_20150414193208_-_Martin_Fowler.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
 
 ---
