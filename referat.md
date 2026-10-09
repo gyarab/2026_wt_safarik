@@ -9,6 +9,7 @@ His 1999 book Refactoring popularised the practice of code refactoring.[3](https
 ---
 ## Biography
 
+
 Fowler was born and grew up in Walsall, England, where he went to Queen Mary's Grammar School for his secondary education. He graduated at University College London in 1986. In 1994, he moved to the United States, where he lives near Boston, Massachusetts in the suburb of Melrose.[1](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-mfbio-1)
 
 Fowler started working with software in the early 1980s. Out of university in 1986 he started working in software development for Coopers & Lybrand until 1991.[5](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-5) In 2000 he joined ThoughtWorks, a systems integration and consulting company,[1](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-mfbio-1) where he is Chief Scientist.[6](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-6), [1](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)#cite_note-mfbio-1)
