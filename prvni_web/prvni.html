@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navštivte vzdelanylid.cz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      body {
+        background: linear-gradient(
+          to right,
+          rgb(255, 225, 90) 20%,
+          rgb(255, 187, 0)
+        );
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .ramecekObal {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+      }
+      .rameckoBalic {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .staryHnusnyRamecek {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        background-color: aliceblue;
+        height: auto;
+        border: 1cap;
+        border-color: rgb(97, 97, 97);
+        border-style: solid;
+        box-shadow: 1cap 1cap 0cap black;
+        padding: 1cap;
+      }
+      .hnusnyOl {
+        display: flex;
+        background-color: rgb(193, 193, 193);
+        padding: 10px;
+        width: 100%;
+        box-shadow: 5px 5px 0 black;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ramecekObal">
+        <div class="rameckoBalic">
+          <p style="font-size: x-large">Toto je první.</p>
+          <div class="staryHnusnyRamecek">
+            <h1><strong>Vzdělaný lid České republiky</strong></h1>
+			<p>Toto je nahoře. Alespoň já jsem měl svůj notebook umístěný nahoře nad monitorem.</p>
+            <h2>Navštivte:</h2>
+            <ol class="hnusnyOl">
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="druhy/druhy.html">Odkaz na druhý</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+              <a href="https://www.vzdelanylid.cz">www.vzdelanylid.cz</a>
+            </ol>
+            <span
+              class="badge theme-success"
+              style="
+                color: wheat;
+                border-radius: 0;
+                box-shadow: 5px 5px 0 black;
+              "
+              >Toto je objekt z Bootstrapu pro získání bodu navíc :)</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
