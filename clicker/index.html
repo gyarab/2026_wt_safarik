@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klikátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-col">
+        <div class="zobrazítko">
+            <span id="zobrazitko"></span>
+        </div>
+        <div class="flex-row">
+            <button class="tlačítko">Click</button>
+            <button class="tlačítko">Result</button>
+        </div>
+    </div>
+    <script>
+        var count=0;
+        function znovunacistpocitadlo() {
+            const el = document.getElementById("zobrazitko");
+            el.innerHTML = count;
+        }
+    </script>
+</body>
+
+</html>
