@@ -12,15 +12,25 @@
             <span id="zobrazitko"></span>
         </div>
         <div class="flex-row">
-            <button class="tlačítko">Click</button>
+            <button onclick="pridatpocet()" class="tlačítko">Click</button>
             <button class="tlačítko">Result</button>
         </div>
     </div>
     <script>
-        var count=0;
+        let count=0;
+        
         function znovunacistpocitadlo() {
             const el = document.getElementById("zobrazitko");
             el.innerHTML = count;
+        }
+        znovunacistpocitadlo();
+        function pridatpocet() {
+            count++;
+            znovunacistpocitadlo();
+        }
+        function restartovat() {
+            count=0;
+            znovunacistpocitadlo();
         }
     </script>
 </body>
