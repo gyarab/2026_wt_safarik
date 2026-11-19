@@ -11,10 +11,20 @@
 
     <style>
         /* pomocné orámování krabic, ať vidíme, co se děje */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aqua;
+        }
         .krabice {
-            border: 2px dashed tomato;
+            border: none;
             padding: 1rem;
             min-height: 80px;
+        }
+        .absolutni {
+            position:absolute;
+            font-size: x-small;
+            color:gray;
+            bottom: 0;
         }
     </style>
 </head>
@@ -31,23 +41,33 @@
     </div>
 
     <div class="container">
-        <h1 class="my-5">Boxes</h1>
+        <h1 class="my-5">Stránka prodejce krabic</h1>
+        <h2 class="my-5">Toto je stránka, na které se někdy možná budou prodávat krabice.</h2>
+        <button class="my-5" onclick="tlac()">Objednat krabici</button>
 
-        
+        <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4">
+            <img src="img/box1.svg" alt="" class="col krabice">
+            <img src="img/box2.svg" alt="" class="col krabice">
+            <img src="img/box3.svg" alt="" class="col krabice">
+            <img src="img/box4.svg" alt="" class="col krabice">
+            <img src="img/box5.svg" alt="" class="col krabice">
+            <img src="img/box6.svg" alt="" class="col krabice">
+            <img src="img/box7.svg" alt="" class="col krabice">
+            <img src="img/box8.svg" alt="" class="col krabice">
+        </div>
+        <div class="absolutni">2026, Vzdělaný lid České republiky.</div>
     </div>
-    <div class="krabice">bez kontejneru</div>
+    <script>
+        function tlac() {
+            alert("Byla objednána krabice. Doporučujeme navštívit internetovou stránku www.vzdelanylid.cz/kancelar");
+        }
+    </script>
+    <!-- <div class="krabice">bez kontejneru</div>
     <div class="container"><div class="krabice">container</div></div>
-    <div class="container-fluid"><div class="krabice">container-fluid</div></div>
-    <div class="row row-cols1 md:row-cols2 lg:row-cols3 xl:row-cols-4">
-        <div class="col krabice">1</div>
-        <div class="col krabice">2</div>
-        <div class="col krabice">3</div>
-        <div class="col krabice">4</div>
-        <div class="col krabice">5</div>
-        <div class="col krabice">6</div>
-        <div class="col krabice">7</div>
-        <div class="col krabice">8</div>
-    </div>
+    <div class="container-fluid"><div class="krabice">container-fluid</div></div> -->
+
+
+    
 
     <!-- Bootstrap 6 – JS (je to ES modul => type="module") -->
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
