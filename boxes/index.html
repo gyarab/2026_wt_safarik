@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs" data-bs-theme="light">
+<html lang="cs" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
 <body>
 
 
-    <nav class="navbar md:navbar-expand bg-1">
+    <nav class="navbar md:navbar-expand bg-1 sticky-top">
         <div class="container">
             <a href="#" class="navbar-brand"><img style="max-width: 5rem;" src="img/box1.svg" alt=""></a>
             <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#menu" aria-label="Menu"></button>
@@ -59,12 +59,22 @@
         </div>
     </nav>
     <div class="container" style="margin-top:100px">
-        <h1 class="my-5">Stránka prodejce krabic</h1>
-        <img style="max-width:50%" src="img/hero.svg">
-        <h2 class="my-5">Toto je stránka, na které se někdy možná budou prodávat krabice.</h2>
-        <button class="my-5" onclick="tlac()">Objednat krabici</button>
+        <div class="row row-cols-1 lg:row-cols-2 align-items-center">
 
-        <div class="row row-cols-1 md:row-cols-2 lg:row-cols-3 xl:row-cols-4">
+            <div class="col text-center lg:text-start">
+                <h1 class="my-5">Stránka prodejce krabic</h1>
+                <h2 class="my-5">Toto je stránka, na které se někdy možná budou prodávat krabice.</h2>
+                <button class="col-6 my-5" onclick="tlac()">Objednat krabici</button>
+            </div>
+            <img class="my-5" src="img/hero.svg">
+        </div>
+        <div class="row row-cols-1 md:row-cols-3 my-5">
+            <div class="card py-5 shadow rounded-5">Rozvoz krabic</div>
+            <div class="card py-5 shadow rounded-5">Výroba krabic</div>
+            <div class="card py-5 shadow rounded-5">Konzumace krabic</div>
+        </div>
+
+        <div class="row row-cols-2 md:row-cols-3 lg:row-cols-4">
             <img src="img/box1.svg" alt="" class="col krabice">
             <img src="img/box2.svg" alt="" class="col krabice">
             <img src="img/box3.svg" alt="" class="col krabice">
@@ -74,8 +84,8 @@
             <img src="img/box7.svg" alt="" class="col krabice">
             <img src="img/box8.svg" alt="" class="col krabice">
         </div>
-        <div class="absolutni">2026, Vzdělaný lid České republiky.</div>        
     </div>
+    <div style="background-color: white;" class="sticky-bottom p-5">asdf</div>
     <script>
         function tlac() {
             alert("Byla objednána krabice.");
