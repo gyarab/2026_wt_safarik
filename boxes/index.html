@@ -34,22 +34,28 @@
 <body>
 
 
-    <nav class="navbar fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar md:navbar-expand bg-1">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img style="max-width: 5rem;" src="img/box1.svg" alt=""></a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#menu" aria-label="Menu"></button>
+                <span class="md:d-none navbar-toggler-icon"></span>
+            </button>
 
+            <dialog class="drawer drawer-end" id="menu">
+                <div class="drawer-header">
+                    <h5 class="drawer-title">menu</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="drawer" aria-label="Zavřít"></button>
 
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Jedna</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dvě</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tři</a>
-                    </li>
-                </ul>
+                </div>
+                <div class="drawer-body">
+                    <ul class="nav navbar-nav md:ms-auto">
+                        <li class="nav-item"><a href="#" class="nav-link active">Hlavní stránka</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Vedlejší stránka</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Nejvedlejší stránka</a></li>
 
+                    </ul>
+                </div>
+            </dialog>
         </div>
     </nav>
     <div class="container" style="margin-top:100px">
@@ -72,7 +78,7 @@
     </div>
     <script>
         function tlac() {
-            alert("Byla objednána krabice.";
+            alert("Byla objednána krabice.");
         }
     </script>
     <!-- <div class="krabice">bez kontejneru</div>
